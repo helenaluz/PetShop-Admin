@@ -1,4 +1,7 @@
 import styles from './Footer.module.css'; 
+
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Footer() {

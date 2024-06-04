@@ -105,3 +105,17 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: "angel";
+  src: local("Angel-Lemona_Demo"),
+       url("./Angel-Lemona_Demo.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+.texto {
+  font-family: "angel", sans-serif;
+  color: #033043;
+}
+

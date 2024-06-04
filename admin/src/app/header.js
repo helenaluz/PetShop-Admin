@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image"
 import logo from "./logo.png";
+import style from './globals.css';
 
 export default function header() {
   return (
@@ -9,7 +10,7 @@ export default function header() {
         <div className="container-fluid">        
           <a className="navbar-brand" href="#">
           <Image src={logo} width="80" height="80"/>
-            <p className="texto">Animalia</p>
+            <p className={style.texto}>Animalia</p>
           </a>
           <button
             className="navbar-toggler"
