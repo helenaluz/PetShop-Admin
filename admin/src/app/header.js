@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image"
-import logo from "./logo.png";
+import logo from "../../public/logo.png";    
 import style from './globals.css';
 
 export default function header() {
@@ -8,9 +8,9 @@ export default function header() {
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">        
-          <a className="navbar-brand" href="#">
+          <a className={`navbar-brand ${style.texto}`} href="#">
           <Image src={logo} width="80" height="80"/>
-            <p className={style.texto}>Animalia</p>
+            <p >Animalia</p>
           </a>
           <button
             className="navbar-toggler"

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from 'next/link';
 import style from './page.module.css'
 import { useState } from "react";
-import font from ''; 
 
 
 export default function LandingPage() {
@@ -11,7 +10,7 @@ export default function LandingPage() {
     <main>      
       <div>
         <h1 className={style.titulo}> Bem vindo Administrador!</h1>
-        <h1 className="display-5 p-3 ">Serviços</h1>
+        <h1 className={`display-5 p-3 ${style.texto2}`}>Serviços</h1>
         <div className="container d-flex justify-content-around">
           <div
             className="card text-bg-dark m-2 servico"
@@ -79,8 +78,8 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="pb-4">
-        <h1 className="display-5 p-3 texto">Quem Somos</h1>
-        <blockquote className="blockquote ps-5">
+        <h1 className={`display-5 p-3 ${style.texto2}`}>Quem Somos</h1>
+        <blockquote className={`blockquote ps-5 ${style.texto2}`}>
           <p>
             Somos uma empresa focada em animais dométicos destinada a fazer o
             seu dia e o dia do seu bichinho melhor! <br />

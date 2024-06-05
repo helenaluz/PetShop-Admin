@@ -8,12 +8,18 @@
   .titulo {
     text-align: center;
     margin-bottom: 20px;
+    color: #033043;
   }
   
   .texto {
     text-align: center;
   }
-  
+
+  .texto2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #033043;
+  }
+
   .servico {
     width: calc(100% / 2 - 20px);
     margin-bottom: 20px;
