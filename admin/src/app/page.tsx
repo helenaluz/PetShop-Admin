@@ -4,7 +4,7 @@ import style from './page.module.css'
 import { useState } from "react";
 
 
-export default function LandingPage() {
+export default function Home() {
   return (
     <section className={style.section}>
     <main>      
