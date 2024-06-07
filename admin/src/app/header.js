@@ -35,6 +35,11 @@ export default function header() {
                   Funcionários
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="./cadastro">
+                  Cadastro
+                </a>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
