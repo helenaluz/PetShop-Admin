@@ -172,7 +172,7 @@ export default function Cadastro() {
           )}
         </Col>
       </Row>
-      <ToastContainer />
+      <ToastContainer theme="colored"/>
     </main>
   );
 }
